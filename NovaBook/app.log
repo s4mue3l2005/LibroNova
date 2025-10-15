@@ -1,0 +1,116 @@
+oct. 14, 2025 4:25:24 P. M. com.codeup.novabook.util.LoggerUtil setupLogging
+INFORMACIÓN: Logging system initialized successfully
+oct. 14, 2025 4:25:24 P. M. com.codeup.novabook.NovaBook main
+INFORMACIÓN: Starting LibroNova Library Management System
+oct. 14, 2025 4:25:24 P. M. com.codeup.novabook.util.DatabaseConnection loadConfiguration
+INFORMACIÓN: Database configuration loaded successfully
+oct. 14, 2025 4:25:24 P. M. com.codeup.novabook.util.DatabaseConnection getConnection
+GRAVE: Error establishing database connection
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.codeup.novabook.util.DatabaseConnection.getConnection(DatabaseConnection.java:57)
+	at com.codeup.novabook.util.DatabaseConnection.testConnection(DatabaseConnection.java:70)
+	at com.codeup.novabook.NovaBook.main(NovaBook.java:45)
+
+oct. 14, 2025 4:25:24 P. M. com.codeup.novabook.util.DatabaseConnection testConnection
+ADVERTENCIA: Database connection test failed
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.codeup.novabook.util.DatabaseConnection.getConnection(DatabaseConnection.java:57)
+	at com.codeup.novabook.util.DatabaseConnection.testConnection(DatabaseConnection.java:70)
+	at com.codeup.novabook.NovaBook.main(NovaBook.java:45)
+
+oct. 14, 2025 4:27:01 P. M. com.codeup.novabook.NovaBook main
+GRAVE: Database connection failed
+oct. 14, 2025 4:42:33 P. M. com.codeup.novabook.util.LoggerUtil setupLogging
+INFORMACIÓN: Logging system initialized successfully
+oct. 14, 2025 4:42:33 P. M. com.codeup.novabook.NovaBook main
+INFORMACIÓN: Starting LibroNova Library Management System
+oct. 14, 2025 4:42:33 P. M. com.codeup.novabook.util.DatabaseConnection loadConfiguration
+INFORMACIÓN: Database configuration loaded successfully
+oct. 14, 2025 4:42:33 P. M. com.codeup.novabook.util.DatabaseConnection getConnection
+GRAVE: Error establishing database connection
+java.sql.SQLException: Access denied for user 'novabook_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.codeup.novabook.util.DatabaseConnection.getConnection(DatabaseConnection.java:57)
+	at com.codeup.novabook.util.DatabaseConnection.testConnection(DatabaseConnection.java:70)
+	at com.codeup.novabook.NovaBook.main(NovaBook.java:45)
+
+oct. 14, 2025 4:42:33 P. M. com.codeup.novabook.util.DatabaseConnection testConnection
+ADVERTENCIA: Database connection test failed
+java.sql.SQLException: Access denied for user 'novabook_user'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.codeup.novabook.util.DatabaseConnection.getConnection(DatabaseConnection.java:57)
+	at com.codeup.novabook.util.DatabaseConnection.testConnection(DatabaseConnection.java:70)
+	at com.codeup.novabook.NovaBook.main(NovaBook.java:45)
+
+oct. 14, 2025 4:42:36 P. M. com.codeup.novabook.NovaBook main
+GRAVE: Database connection failed
+oct. 14, 2025 4:48:39 P. M. com.codeup.novabook.util.LoggerUtil setupLogging
+INFORMACIÓN: Logging system initialized successfully
+oct. 14, 2025 4:48:39 P. M. com.codeup.novabook.NovaBook main
+INFORMACIÓN: Starting LibroNova Library Management System
+oct. 14, 2025 4:48:39 P. M. com.codeup.novabook.util.DatabaseConnection loadConfiguration
+INFORMACIÓN: Database configuration loaded successfully
+oct. 14, 2025 4:48:39 P. M. com.codeup.novabook.util.DatabaseConnection getConnection
+INFORMACIÓN: Database connection established
+oct. 14, 2025 4:49:04 P. M. com.codeup.novabook.NovaBook run
+INFORMACIÓN: Application terminated by user
+oct. 14, 2025 4:49:07 P. M. com.codeup.novabook.util.LoggerUtil setupLogging
+INFORMACIÓN: Logging system initialized successfully
+oct. 14, 2025 4:49:07 P. M. com.codeup.novabook.NovaBook main
+INFORMACIÓN: Starting LibroNova Library Management System
+oct. 14, 2025 4:49:07 P. M. com.codeup.novabook.util.DatabaseConnection loadConfiguration
+INFORMACIÓN: Database configuration loaded successfully
+oct. 14, 2025 4:49:08 P. M. com.codeup.novabook.util.DatabaseConnection getConnection
+INFORMACIÓN: Database connection established
+oct. 14, 2025 4:49:12 P. M. com.codeup.novabook.NovaBook run
+INFORMACIÓN: Application terminated by user
+oct. 14, 2025 4:49:36 P. M. com.codeup.novabook.util.LoggerUtil setupLogging
+INFORMACIÓN: Logging system initialized successfully
+oct. 14, 2025 4:49:36 P. M. com.codeup.novabook.NovaBook main
+INFORMACIÓN: Starting LibroNova Library Management System
+oct. 14, 2025 4:49:36 P. M. com.codeup.novabook.util.DatabaseConnection loadConfiguration
+INFORMACIÓN: Database configuration loaded successfully
+oct. 14, 2025 4:49:36 P. M. com.codeup.novabook.util.DatabaseConnection getConnection
+INFORMACIÓN: Database connection established
+oct. 14, 2025 6:22:30 P. M. com.codeup.novabook.NovaBook run
+INFORMACIÓN: Application terminated by user
+oct. 14, 2025 7:55:06 P. M. com.codeup.novabook.util.LoggerUtil setupLogging
+INFORMACIÓN: Logging system initialized successfully
+oct. 14, 2025 7:55:06 P. M. com.codeup.novabook.NovaBook main
+INFORMACIÓN: Starting LibroNova Library Management System
+oct. 14, 2025 7:55:06 P. M. com.codeup.novabook.util.DatabaseConnection loadConfiguration
+INFORMACIÓN: Database configuration loaded successfully
+oct. 14, 2025 7:55:06 P. M. com.codeup.novabook.util.DatabaseConnection getConnection
+INFORMACIÓN: Database connection established
+oct. 14, 2025 7:55:11 P. M. com.codeup.novabook.NovaBook run
+INFORMACIÓN: Application terminated by user
